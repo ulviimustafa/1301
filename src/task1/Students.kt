@@ -1,11 +1,11 @@
-import java.util.concurrent.locks.Condition
+package task1
 
 class Student (
     val name : String,
     val scores : IntArray,
 ){
     fun getFullInfo() {
-        println("Student : $name - ${scores.joinToString { it.toString() }}")
+        println("task1.Student : $name - ${scores.joinToString { it.toString() }}")
     }
 
 //    Qiymetlerin ortalamasi
